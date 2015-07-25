@@ -23,11 +23,7 @@ var ConfigOverrides = require('../config/env/testing');
           io.sails.url = 'http://localhost:1337/';
           
           request(sails.hooks.http.app)
-          .post('/register')
-          .send({
-            email: 'existing.user@email.com',
-            password: 'admin123'
-          })
+          .get('/admin/gui')
           .end(function(err) {
             done(err, sails);
           });

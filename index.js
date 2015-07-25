@@ -4,7 +4,7 @@ module.exports = function (sails) {
  	return { 
  		defaults: {
       routes: {
-        '/gui': {
+        '/admin/gui': {
           view: 'gui'
         }
       }
