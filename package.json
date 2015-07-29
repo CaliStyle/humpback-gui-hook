@@ -19,12 +19,20 @@
     "hook",
     "sails.js"
   ],
-  "author": "Scott B Wyatt",
+  "author": {
+    "name": "scott-wyatt",
+    "email": "scott@calistyletechnologies.com",
+    "url": "https://github.com/scott-wyatt"
+  },
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/CaliStyle/humpback-gui-hook/issues"
   },
   "homepage": "https://github.com/CaliStyle/humpback-gui-hook",
+  "contributors": [{
+    "name": "scott-wyatt",
+    "github": "https://github.com/scott-wyatt"
+  }],
   "dependencies": {
     "bcryptjs": "^2.1",
     "bluebird": "^2.9.30",
