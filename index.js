@@ -4,7 +4,7 @@ module.exports = function (sails) {
  	return { 
  		defaults: {
       routes: {
-        '/admin/data': {
+        'get /admin/data': {
           view: 'admin/data'
         }
       }
